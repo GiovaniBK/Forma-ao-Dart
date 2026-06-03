@@ -22,9 +22,6 @@ As principais boas práticas ao declarar variáveis em Dart são:
 - **Nomes descritivos**: Evite nomes como `x`, `a`, `temp`. Prefira `totalItens`, `usuarioLogado`.
 - **Inicialize variáveis antes de usá-las**: O Dart garante null safety, então variáveis não-nulas precisam ser inicializadas antes do uso.
 
-**Minhas observações:**
-
-> Achei interessante que o Dart incentiva o uso de var quando o tipo já é óbvio pelo valor atribuído, em outras linguagens eu estava acostumado a sempre declarar o tipo explicitamente. O ponto sobre preferir final sempre que possível foi algo que vou tentar aplicar desde o início dos estudos.
 
 ---
 
@@ -44,9 +41,6 @@ Ao declarar variáveis em Dart, deve-se evitar:
 - **Declarar variáveis em escopo maior do que o necessário**: Declare a variável no escopo mais próximo onde ela é usada.
 - **Usar `dynamic` sem motivo**: O tipo `dynamic` desativa a verificação de tipos do Dart. Use apenas quando realmente necessário (ex: integração com JSON não tipado).
 
-**Minhas observações:**
-
-> Dynamic foi uma novidade importante pra mim. Eu não sabia que ele desativa a verificação de tipos, parece perigoso se usado sem cuidado. Vou prestar mais atenção nisso ao escrever código.
 
 ---
 
@@ -65,9 +59,6 @@ O Dart possui **null safety** desde a versão 2.12, o que significa que por padr
 - **Evite o operador `!` (bang operator) sem certeza**: `nome!` força o Dart a tratar a variável como não-nula. Se ela for null em tempo de execução, lança uma exceção. Use com cuidado.
 - **Não propague null desnecessariamente**: Se uma função recebe um valor nullable, trate o null na entrada, não ao longo de toda a lógica interna.
 
-**Minhas observações:**
-
-> O operador ?? foi algo que achei muito prático, poder definir um valor padrão caso a variável seja nula deixa o código mais limpo do que usar um if para isso. O conceito de null safety em si foi bem explicado e ajudou a entender por que o Dart exige essa atenção com nulls.
 
 ---
 
@@ -107,9 +98,6 @@ O modificador `late` traz os seguintes benefícios:
 - **Evita o uso desnecessário de `?`**: Ao invés de tornar uma variável nullable só para adiar a inicialização, `late` mantém o tipo não-nulo e o contrato mais claro.
 - **Detecção de erro em tempo de execução**: Se acessar uma variável `late` não inicializada, o Dart lança `LateInitializationError`, o que é mais informativo do que um erro genérico de null.
 
-**Minhas observações:**
-
-> O benefício de lazy initialization foi o que mais me chamou atenção, não tinha pensado que isso pode melhorar a performance ao evitar processar algo que talvez nunca seja usado. Também gostei de saber que o erro LateInitializationError é mais descritivo, porque facilita a depuração.
 
 ---
 
@@ -135,9 +123,7 @@ const pi = 3.14159;           // OK – valor fixo em compilação
 const agora2 = DateTime.now(); // ERRO – DateTime.now() não é constante
 ```
 
-**Minhas observações:**
 
-> A IA conseguiu esclarecer para mim, se o valor depende de algo que só é conhecido quando o programa roda (como a data atual), precisa ser final. Se é um valor fixo como pi, pode ser const. Diferença entre tempo de compilação e tempo de execução.
 
 ---
 
@@ -155,7 +141,6 @@ Usar `final` e `const` traz vantagens claras em relação a simplesmente usar `v
 - **Otimização com `const`**: O compilador pode otimizar constantes, reutilizando o mesmo objeto em memória para valores idênticos.
 - **Imutabilidade como padrão**: Em programação, imutabilidade reduz efeitos colaterais e torna o comportamento do código mais previsível.
 - **Boas práticas de clean code**: Regra geral: declare tudo como `final` por padrão, mude para variável mutável apenas quando necessário.
-
 
 
 ---

@@ -10,20 +10,24 @@ void main() {
   // Imprimir no console, com a formatação especificada
   print("Nome completo: $nome $sobrenome");
 
+  // Verificar maioridade
   if (idade >= 18) {
     print("Idade: $idade (maior de idade)");
   } else {
     print("Idade: $idade (menor de idade)");
   }
 
+  // Verificar status ativo
   if (ativo = true) {
     print("Situação: Ativo");
   } else {
     print("Situação: Inativo");
   }
 
+  // Formatar double com 2 casas decimais
   print("Peso: ${peso.toStringAsFixed(2)}");
 
+  // Verificar se nacionalidade é nula (null checking)
   if (nacionalidade != null) {
     print("Nacionalidade: $nacionalidade");
   } else {

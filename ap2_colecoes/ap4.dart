@@ -1,4 +1,5 @@
 void main() {
+  // Criar mapa com chave (sigla) e valor (lista de cidades)
   final mapa = {
     'SC': ['Gaspar', 'Blumenau', 'Florianopolis'],
     'PR': ['Curitiba', 'Cascavel', 'Foz do Iguacu'],
@@ -20,6 +21,7 @@ void main() {
       todasCidades.add('$cidade - $estado');
     }
   });
+  // Ordenar alfabeticamente todas as cidades
   todasCidades.sort();
   for (String linha in todasCidades) {
     print(linha);

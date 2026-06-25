@@ -1,0 +1,27 @@
+{
+  "roots": [
+    "atividade_final_dart"
+  ],
+  "packages": [
+    {
+      "name": "atividade_final_dart",
+      "version": "0.0.1",
+      "dependencies": [
+        "csv",
+        "yaansi"
+      ],
+      "devDependencies": []
+    },
+    {
+      "name": "csv",
+      "version": "8.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "yaansi",
+      "version": "1.2.0",
+      "dependencies": []
+    }
+  ],
+  "configVersion": 1
+}

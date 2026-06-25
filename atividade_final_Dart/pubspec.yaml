@@ -1,0 +1,8 @@
+name: atividade_final_dart
+description: Exemplo usando yaansi
+version: 0.0.1
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+dependencies:
+  yaansi: ^1.2.0
+  csv: ^8.0.0

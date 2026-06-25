@@ -1,0 +1,35 @@
+Relatório de Direção do Vento:
+
+Direção com maior frequência por estado por ano:
+
+SC: 0° | 0.00 rad
+SP: 0° | 0.00 rad
+
+Direção com maior frequência por estado por mês:
+
+SC:
+janeiro: 0° | 0.00 rad
+fevereiro: 0° | 0.00 rad
+marco: 0° | 0.00 rad
+abril: 0° | 0.00 rad
+maio: 0° | 0.00 rad
+junho: 0° | 0.00 rad
+julho: 0° | 0.00 rad
+agosto: 0° | 0.00 rad
+setembro: 0° | 0.00 rad
+outubro: 0° | 0.00 rad
+novembro: 0° | 0.00 rad
+dezembro: 0° | 0.00 rad
+SP:
+janeiro: 0° | 0.00 rad
+fevereiro: 0° | 0.00 rad
+marco: 0° | 0.00 rad
+abril: 150° | 2.62 rad
+maio: 120° | 2.09 rad
+junho: 0° | 0.00 rad
+julho: 30° | 0.52 rad
+agosto: 0° | 0.00 rad
+setembro: 180° | 3.14 rad
+outubro: 180° | 3.14 rad
+novembro: 120° | 2.09 rad
+dezembro: 150° | 2.62 rad

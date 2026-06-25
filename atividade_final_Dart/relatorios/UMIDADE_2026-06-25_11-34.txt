@@ -1,0 +1,103 @@
+Relatório de Umidade:
+
+Média por estado por ano:
+
+SC: 0.013192
+SP: 0.012092
+
+Média por estado por mês:
+
+SC:
+janeiro: 0.017287
+fevereiro: 0.016789
+marco: 0.016404
+abril: 0.013470
+maio: 0.011196
+junho: 0.010138
+julho: 0.010627
+agosto: 0.010339
+setembro: 0.012221
+outubro: 0.012325
+novembro: 0.013514
+dezembro: 0.014233
+SP:
+janeiro: 0.014660
+fevereiro: 0.015329
+marco: 0.014722
+abril: 0.012195
+maio: 0.011447
+junho: 0.010892
+julho: 0.009663
+agosto: 0.009152
+setembro: 0.010984
+outubro: 0.011774
+novembro: 0.011994
+dezembro: 0.012531
+
+Máxima por estado por ano:
+
+SC: 0.029118
+SP: 0.021130
+
+Máxima por estado por mês:
+
+SC:
+janeiro: 0.029118
+fevereiro: 0.022406
+marco: 0.022342
+abril: 0.019485
+maio: 0.016397
+junho: 0.017481
+julho: 0.014328
+agosto: 0.014591
+setembro: 0.015630
+outubro: 0.018304
+novembro: 0.020529
+dezembro: 0.021358
+SP:
+janeiro: 0.020419
+fevereiro: 0.021130
+marco: 0.019912
+abril: 0.016453
+maio: 0.015868
+junho: 0.014797
+julho: 0.012643
+agosto: 0.013508
+setembro: 0.014273
+outubro: 0.016295
+novembro: 0.015579
+dezembro: 0.019894
+
+Mínima por estado por ano:
+
+SC: 0.003286
+SP: 0.004874
+
+Mínima por estado por mês:
+
+SC:
+janeiro: 0.012090
+fevereiro: 0.010169
+marco: 0.009972
+abril: 0.007977
+maio: 0.005602
+junho: 0.004268
+julho: 0.004677
+agosto: 0.003286
+setembro: 0.007377
+outubro: 0.005919
+novembro: 0.007220
+dezembro: 0.008823
+SP:
+janeiro: 0.009268
+fevereiro: 0.011284
+marco: 0.011043
+abril: 0.008731
+maio: 0.007884
+junho: 0.005600
+julho: 0.007126
+agosto: 0.004874
+setembro: 0.006798
+outubro: 0.007271
+novembro: 0.006328
+dezembro: 0.006539
